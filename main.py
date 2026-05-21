@@ -9,7 +9,7 @@ def worker():
 
 t1 = threading.Thread(target=worker)
 t1.start()
- t1.join()
+t1.join()
 print("Hello from main thread")
 
 # Write a Python program that creates three separate threads where each
